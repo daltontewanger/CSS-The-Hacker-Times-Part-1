@@ -13,13 +13,23 @@ header h1 {
     text-align: center;
 }
 
-main h2, section h4 {
+main h2 {
+    font-family: Roboto Slab;
+    margin: 0.6em 0;
+}
+
+section h4 {
     font-family: Roboto Slab;
 }
 
 main h5 {
     color: #dd3232;
-    font-family: Abril Fatface;    
+    font-family: Abril Fatface;   
+    margin: 0.5em 0; 
+}
+
+.date {
+    font-size: 0.9em;
 }
 
 .newspaper-container {
@@ -29,5 +39,56 @@ main h5 {
     box-sizing: border-box;
     box-shadow: 0 0 5px 5px #ddd;
     border-radius: 1em;
-    padding: 1.5em;
+    padding: 1.25em;
+}
+
+nav {
+    background-color: white;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    position: sticky;
+    top: 0;
+    padding: 0.25em 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 0.25em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #777;
+    font-size: 0.9em;
+}
+
+main {
+    border-bottom: 2px solid #eee;
+}
+
+main img {
+    width: 100%;
+}
+
+p {
+    font-size: 0.9em;
+    text-align: justify;
+    padding: 0 0.75em;
+}
+
+.more-articles section {
+    display: inline-block;
+    width: 45%;
+    margin: 0 0.75em;
+}
+
+.more-articles img {
+    width: 100%;
 }
